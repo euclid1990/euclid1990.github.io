@@ -1,0 +1,11 @@
+euclid1990:
+  name: Cùi Bắp
+  picture: /assets/img/avatar/euclid1990.png
+  github: "@euclid1990"
+  links:
+    - title: Github
+      url: https://github.com/euclid1990
+      icon: fab fa-github-square
+    - title: Facebook
+      url: https://www.facebook.com/euclid1990
+      icon: fab fa-facebook-square

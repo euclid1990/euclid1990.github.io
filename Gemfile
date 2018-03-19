@@ -28,3 +28,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+# GitHub-flavored Emoji plugin for Jekyll
+gem "jemoji", "~> 0.9.0"

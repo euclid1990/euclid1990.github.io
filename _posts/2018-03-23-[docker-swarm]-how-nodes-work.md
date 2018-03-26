@@ -8,7 +8,7 @@ tags:
   - Nodes
 ---
 
-Mở đầu cho chuỗi series giải thích hoạt động của Swarm mode trong Docker. Bài viết này mình xin được giới thiệu về cách thức hoạt động của một node trong Docker Swarm mode.
+Mở đầu cho chuỗi series giải thích hoạt động của Swarm mode trong Docker. Bài viết này mình xin được giới thiệu về cách thức hoạt động của một **node** trong Docker Swarm mode.
 
 # How nodes work?
 
@@ -55,7 +55,7 @@ Bạn có thể đẩy một worker node thành manager node bằng cách chạy
 
 Bạn cũng có thể giảm cấp manager node thành worker node. Xem thêm tại [demote node](https://docs.docker.com/engine/reference/commandline/node_demote/).
 
-## References:
+## References
 
 - [How nodes work](https://docs.docker.com/engine/swarm/how-swarm-mode-works/nodes/#worker-nodes)
 

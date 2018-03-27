@@ -10,7 +10,7 @@ url: # the base hostname & protocol for your site e.g. "https://mmistakes.github
 logo: "/assets/img/site/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
-words_per_minute: 150
+words_per_minute: 135
 mathjax: true
 google_fonts:
   - name: "Source Sans Pro"

@@ -22,6 +22,9 @@ disqus:
   shortname:
 twitter:
   username:
+owner:
+  google:
+    verify: "UbkrgqukveLGCPYSz3omaxaoSowMtcK4HtydpZElqC4"
 
 # Liquid
 liquid:

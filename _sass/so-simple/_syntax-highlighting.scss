@@ -29,6 +29,15 @@ figure.highlight {
     margin: 0;
     padding: 1em;
   }
+
+  &.language-terminal {
+    color: $base00;
+    background: $base-color;
+
+    .highlight .nb {
+      color: $base0g;
+    }
+  }
 }
 
 .highlight table {

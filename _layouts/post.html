@@ -30,6 +30,11 @@ layout: default
           {% include social-share.html %}
         {% endif %}
 
+        {% if page.fbcomments %}
+          <hr/>
+          <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="10" data-width="100%"></div>
+        {% endif %}
+
         {% if site.disqus.shortname %}
           {% include disqus-comments.html %}
         {% endif %}

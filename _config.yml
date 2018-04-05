@@ -75,6 +75,7 @@ defaults:
     values:
       layout: post
       share: true
+      fbcomments: true
 
 # Site Author
 author:

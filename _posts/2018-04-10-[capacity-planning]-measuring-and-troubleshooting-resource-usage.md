@@ -6,6 +6,8 @@ categories: Linux
 tags:
   - LPIC-2
   - Monitoring
+hide_thumbnail: true
+image: /assets/img/posts/2018-04-05-capacity-planning-measuring-and-troubleshooting-resource-usage/thumbnail.jpg
 ---
 
 Có rất nhiều thành phần trong một hệ điều hành Linux có thể gây ảnh hưởng tới hiệu năng của hệ thống. Việc chủ động giám sát các (monitoring) components, sẽ là cách duy nhất để bảo vệ hệ thống của bạn. Bài viết này tôi sẽ đề cập tới các công cụ và tiện ích giúp bạn có thể giám sát hệ thống dễ dàng.

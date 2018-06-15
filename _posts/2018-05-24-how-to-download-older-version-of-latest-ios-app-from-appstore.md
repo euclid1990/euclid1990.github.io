@@ -7,6 +7,8 @@ tags:
   - .ipa
   - App Store
   - Download
+hide_thumbnail: true
+image: /assets/img/posts/2018-05-24-how-to-download-older-version-of-latest-ios-app-from-appstore/thumbnail.png
 ---
 
 Nếu bạn đang dùng iOS device (iPhone, iPad) thì bài viết này sẽ rất hữu ích.

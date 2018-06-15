@@ -1,4 +1,4 @@
-{% if page.image and page.id != 'index' %}
+{% if page.image and page.id != 'index' and page.hide_thumbnail != true %}
   {% assign page_image = page.image.path | default: page.image %}
   {% unless page_image contains '://' %}
     {% assign page_image = page_image | relative_url %}

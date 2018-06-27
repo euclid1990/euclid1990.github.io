@@ -95,3 +95,7 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
+
+# Emoji customizing
+emoji:
+  src: "/assets/img/"

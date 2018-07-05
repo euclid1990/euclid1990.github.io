@@ -2,7 +2,7 @@
 layout: post
 title:  "[Laravel] Generate mix javascript bundle file hoạt động trên IE 11"
 date:   2018-06-22 13:23:04 +0700
-categories: Infrastructure
+categories: Laravel
 tags:
   - Laravel
 hide_thumbnail: true

@@ -28,7 +28,7 @@ Sau khi cài đặt, các bạn mở `IntelliJ IDEA` > `Configure` > `Preference
     $ brew upgrade dart --devel --force
     $ brew switch dart 2.0.0-dev.65.0
     ```
-- Install Flutter SDK:
+- Install Flutter SDK: (Nếu bạn không code Flutter thì có thể bỏ qua)
     - Tải phiên bản SDK mới nhất tại [SDK Archive](https://flutter.io/sdk-archive/#macos)
     - Giải nén vào thư mục `xyz` nào đó trên máy bạn. (Dùng lệnh `unzip` hoặc thao tác trực tiếp bằng tay :joy:). Ví dụ ở đây mình giải nén vào thư mục `Mobile`:
     ```terminal
@@ -53,6 +53,61 @@ Sau khi cài đặt, các bạn mở `IntelliJ IDEA` > `Configure` > `Preference
     ```terminal
     $ flutter doctor
     ```
+- Platform setup: (Nếu bạn không code Flutter thì có thể bỏ qua)
+    - Android Setup
+        1. Nếu bạn đã cài Android Studio, thì rất có thể bạn sẽ không phải làm bước này.
+        1. Nếu Intellij IDEA không tự nhận Android SDK thì bạn phải tự cấu hình SDK theo các bước trong ảnh như sau:
+        ![](/assets/img/posts/2018-06-27-getting-started-with-dart/Show_Library_folder_on_Mac_01.png)
+        ![](/assets/img/posts/2018-06-27-getting-started-with-dart/Show_Library_folder_on_Mac_02.png)
+        Ở 2 bước trên, chúng ta hiện thư mục `Library` trên máy lên, do SDK mặc định cài bởi Android Studio sẽ ở thư mục `/Users/<name>/Library/Android/sdk`. Tiếp đó ta sẽ cấu hình SDK như sau:
+        ![](/assets/img/posts/2018-06-27-getting-started-with-dart/Config_project_Android_SDK_01.png)
+        ![](/assets/img/posts/2018-06-27-getting-started-with-dart/Config_project_Android_SDK_02.png)
+        1. Sau khi cấu hình xong SDK các bạn vào AVD Manager và tạo Virtual Device nhằm debug trên máy ảo Android nhé
+        ![](/assets/img/posts/2018-06-27-getting-started-with-dart/AVD_Manager.png)
+        1. Nếu sau khi cài đặt mà không có **[Flutter Device Selection]** như hình bên dưới trong các Flutter Project:
+        ![](/assets/img/posts/2018-06-27-getting-started-with-dart/Device_Selector_List.png)
+        Thì có thể phải update lại SDK & Khởi động lại máy tính :joy:
+        ```terminal
+        sdkmanager --update
+        ```
+        Xem thêm giải pháp tại [[1]](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360000002670-Download-SDK-for-IDEA-and-nothing-IDEA-android-sdk-is-up-to-date) [[2]](https://stackoverflow.com/questions/45268254/how-do-i-install-the-standalone-android-sdk-and-then-add-it-to-intellij-idea-on/45268592#45268592).
+    - iOS Setup
+        1. Cài đặt Xcode 9.0 hoặc bản mới hơn ([web download](https://developer.apple.com/xcode/) hoặc [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835))
+        1. Cấu hình lại Xcode command-line tools:
+        ```terminal
+        $ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+        ```
+        Có thể đổi lại đường dẫn tới Xcode trên máy bạn cho phù hợp. Confirm lại hoạt động ta chạy câu lệnh sau:
+        ```terminal
+        $ sudo xcodebuild -license
+        ```
+        1. Cấu hình iOS simulator:
+        ```terminal
+        $ open -a Simulator
+        ```
+        ![](/assets/img/posts/2018-06-27-getting-started-with-dart/iOS_simulator.png)
+        **Hardware > Device** và **Window > Scale**.
+        1. Deploy to iOS devices
+            - Cài đặt [Homebrew](http://brew.sh/).
+            - Chạy các câu lệnh sau:
+            ```terminal
+            $ brew update
+            $ brew install --HEAD libimobiledevice
+            $ brew install ideviceinstaller ios-deploy cocoapods
+            $ pod setup
+            ```
+            Trong quá trình cài `libimobiledevice` nếu bạn gặp lỗi:
+            ```terminal
+            ./configure: line 15993: syntax error near unexpected token \`libusbmuxd,'
+            ./configure: line 15993: `PKG_CHECK_MODULES(libusbmuxd, libusbmuxd >= $LIBUSBMUXD_VERSION)'
+            ```
+            Hãy chạy các lệnh sau:
+            ```terminal
+            $ sudo chmod 777 /usr/local/share/aclocal
+            $ brew install pkg-config
+            $ brew link pkg-config
+            ```
+            rồi tiếp tục cài lại xem sao nhé :expressionless: Cài đặt `pod` mất cỡ ~ 500mb nên hãy check lại dung lượng ổ SSD trước nhé. Máy mình chỉ có 128Gb thôi :cry:
 - Install [Webdev](https://pub.dartlang.org/packages/webdev)
 ```terminal
 $ pub global activate webdev

@@ -22,11 +22,13 @@ Cách đây không lâu mình và khách hàng phải xây dựng một hệ th�
 
 > Hey, what's up man?
 
-Với vai trò là người quản lý server, thì việc biết cách **sao lưu** (backup or snapshot), **phục hồi** (restore), **đánh lại chỉ mục** (re-index), **index aliases & zero downtime** (éo biết dịch thế nào, cụ thể là bạn tạo 1 cái mặt nạ, người dùng nhìn vào cái mặt nạ đó nhưng méo biết đằng sau nó là index nào, mặc cho admin switch mệt nghỉ :clown_face:)
+Với vai trò là người quản lý server của khách, thì việc biết cách **sao lưu** (backup or snapshot), **phục hồi** (restore), **đánh lại chỉ mục** (re-index), **index aliases & zero downtime** (éo biết dịch thế nào, cụ thể là bạn tạo 1 cái mặt nạ, người dùng nhìn vào cái mặt nạ đó nhưng méo biết đằng sau nó là index nào, mặc cho admin switch mệt nghỉ :clown_face:)
+
+Trong bài viết này tôi sẽ mô tả cách mà tôi thực hiện việc sao lưu và đánh lại index trên Elasticsearch.
 
 Nếu máy tính bạn không có Elasticsearch, Kibana để thực hành thì đừng lo, hãy cài [docker](https://docs.docker.com/install/)/[docker-compose](https://docs.docker.com/compose/install/) và dùng sẵn stack **[này](https://github.com/euclid1990/elk)** nhé.
 
-Sau khi chạy lệnh `$ docker-compose up` , đợi các service ready hết các bạn vào [Kibana Dev Console](http://localhost:5601/app/kibana#/dev_tools/console?_g=()).
+Sau khi chạy lệnh `$ docker-compose up` , đợi các service ready hết các bạn vào [Kibana Dev Console](http://localhost:5601/app/kibana#/dev_tools/console?_g=()) là có thể bắt tay thử liền.
 
 ## Prepare
 
@@ -355,7 +357,9 @@ Bài viết trên được áp dụng trong trường hợp 1 node Elasticsearch
 - Cluster heathcheck → :green_apple: `green`
 - Kế hoạch rollback nếu việc update bị fail :sweat_smile:
 
-Tất nhiên để thực hiện chính xác và không bị mắc sai sót, ta nên tự động hoá các công việc đó với một vài công cụ như `shell-script`, `ansible`, `puppet`, ...
+Tất nhiên để thực hiện chính xác và không bị mắc sai sót, ta nên tự động hoá các công việc đó với một vài công cụ như `shell-script`, `ansible`, `puppet`, ... Chúc bạn thực hiện thành công =))
+
+![]({{ '/assets/img/posts/2018-06-15-how-to-backup-restore-and-reindex-elasticsearch-indices/happy_coding.jpg' | relative_url }})
 
 ## References
 

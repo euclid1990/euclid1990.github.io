@@ -16,11 +16,13 @@ image: /assets/img/posts/2018-06-15-how-to-backup-restore-and-reindex-elasticsea
 
 Không sớm thì muộn ai trong chúng ta cũng sẽ được nghe câu nói trên :joy:. Phốt everywhere :fire:
 
+![]({{ '/assets/img/posts/2018-06-15-how-to-backup-restore-and-reindex-elasticsearch-indices/system_crash.jpg' | relative_url }})
+
 Cách đây không lâu mình và khách hàng phải xây dựng một hệ thống nội bộ cho họ dùng để tìm kiếm, thống kê dữ liệu trong Elasticsearch (đại loại như Kibana), tuy không nhiều chức năng như Kibana nhưng công việc này đã cho mình rất nhiều kiến thức về Elasticsearch.
 
 > Hey, what's up man?
 
-Với vai trò là người quản lý server, thì việc biết cách **sao lưu** (backup or snapshot), **phục hồi** (restore), **đánh lại chỉ mục** (re-index), **index aliases & zero downtime** (éo biết dịch thế nào, cụ thể là bạn tạo 1 cái mặt nạ, người dùng nhìn vào cái mặt nạ đó nhưng méo biết đằng sau nó là index nào :clown_face:)
+Với vai trò là người quản lý server, thì việc biết cách **sao lưu** (backup or snapshot), **phục hồi** (restore), **đánh lại chỉ mục** (re-index), **index aliases & zero downtime** (éo biết dịch thế nào, cụ thể là bạn tạo 1 cái mặt nạ, người dùng nhìn vào cái mặt nạ đó nhưng méo biết đằng sau nó là index nào, mặc cho admin switch mệt nghỉ :clown_face:)
 
 Nếu máy tính bạn không có Elasticsearch, Kibana để thực hành thì đừng lo, hãy cài [docker](https://docs.docker.com/install/)/[docker-compose](https://docs.docker.com/compose/install/) và dùng sẵn stack **[này](https://github.com/euclid1990/elk)** nhé.
 
@@ -203,13 +205,13 @@ List all index ta thấy :stuck_out_tongue_closed_eyes: ほら `restored_message
 
 ## Re-index
 
-> Cho dù bạn có thể thêm các `type` (kiểu) mới vào chỉ mục hoặc thêm các `field` (trường) mới vào `type`, thì bạn cũng không thể làm điều đó với `analyzers` cũng như áp dụng các thay đổi cho các trường hiện có. Nếu bạn làm như vậy, dữ liệu đã được lập chỉ mục sẽ không chính xác và các tìm kiếm của bạn sẽ không còn hoạt động như mong đợi. :smile:
+> Cho dù bạn có thể thêm các `type` (kiểu) mới vào chỉ mục hoặc thêm các `field` (trường) mới vào `type` (kiểu), thì bạn cũng không thể làm điều đó với `analyzers` cũng như áp dụng các thay đổi cho các trường hiện có. Nếu bạn làm như vậy, dữ liệu đã được lập chỉ mục sẽ không chính xác và các tìm kiếm của bạn sẽ không còn hoạt động như mong đợi. :smile:
 
-Vâng, đó chính là lý do chúng ta cần tới chức năng `Reindex`. Trên documentation của Elasticsearch: The Definitive Guide có mô tả
+Vâng, đó chính là lý do chúng ta cần tới chức năng `Reindex`. Trên documentation của `Elasticsearch: The Definitive Guide` có mô tả
 
 > To reindex all of the documents from the old index efficiently, use scroll to retrieve batches of documents from the old index, and the bulk API to push them into the new index.
 
-Đại loại là họ khuyên chúng ta nên sử dụng [scroll](https://www.elastic.co/guide/en/elasticsearch/reference/6.3/search-request-scroll.html) để lấy từng mảng dữ liệu document nhỏ, sau đó mới push vào `new_index`. Mình thấy cách này hay đấy nhưng tốn công quá =)))
+Đại loại là họ khuyên chúng ta nên sử dụng [scroll](https://www.elastic.co/guide/en/elasticsearch/reference/6.3/search-request-scroll.html) để lấy từng mảng dữ liệu document nhỏ, sau đó mới push vào `new_index`. Mình thấy cách này hay đấy nhưng tốn công quá =))) Tuy nhiên với các hệ thống có lượng dữ liệu lớn thì bạn nên làm theo cách mà tài liệu khuyến khích nhé :grinning:
 
 Ta làm đơn giản hơn:
 
@@ -343,6 +345,17 @@ POST messages_v2/_analyze
   "text":     "友達になってくれてありがとうございます"
 }
 ```
+
+Bài viết trên được áp dụng trong trường hợp 1 node Elasticsearch nên mọi thứ `chạy = cơm` vẫn rất ổn thoả, nếu bạn sắp phải thao tác trên các hệ thống replica shards cần lưu ý thêm như:
+- Tắt shard allocation trên cluster
+- Thực hiện index flush sync
+...
+- Graceful shutdown & restart & rejoin cluster
+- Mở lại shard allocation trên cluster
+- Cluster heathcheck → :green_apple: `green`
+- Kế hoạch rollback nếu việc update bị fail :sweat_smile:
+
+Tất nhiên để thực hiện chính xác và không bị mắc sai sót, ta nên tự động hoá các công việc đó với một vài công cụ như `shell-script`, `ansible`, `puppet`, ...
 
 ## References
 

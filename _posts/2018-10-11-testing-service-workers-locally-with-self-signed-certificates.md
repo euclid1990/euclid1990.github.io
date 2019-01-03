@@ -53,6 +53,6 @@ This site does not have a valid SSL certificate! Without SSL, your site's and vi
 
 ![](/assets/img/posts/2018-10-11-testing-service-workers-locally-with-self-signed-certificates/self_ssl_warning.png)
 
-Nếu bạn muốn generate self signed certificate nhanh chóng thì có thể sử dụng command trong repo này nhé: [ttps://github.com/euclid1990/generate-self-signed-certificate](https://github.com/euclid1990/generate-self-signed-certificate)
+Nếu bạn muốn generate self signed certificate nhanh chóng thì có thể sử dụng command trong repo này nhé: [https://github.com/euclid1990/generate-self-signed-certificate](https://github.com/euclid1990/generate-self-signed-certificate)
 
 DONE :rocket:

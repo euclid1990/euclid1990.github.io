@@ -96,7 +96,7 @@ Vậy nếu muốn sử dụng các công cụ này cho project non-PHP hay non-
 Một cách khác, mình sẽ tách phần migrate và generate migration ra bên ngoài.
 
 Với `PHP` thay vì phải wrap lại `Illuminate\Database\Migrations` ta có một cách tương đối dễ, đó là dùng luôn [doctrine/migrations](https://www.doctrine-project.org/projects/migrations.html). Support tận răng 😭 Hoặc nếu bạn muốn sử dụng lại cũng khá dễ, chỉ cần tạo 1 file `#!/usr/bin/env php > .php` trong đó khai báo các command muốn dùng và switch, cách sử dụng cũng đc ghi rất rõ ràng trên github:
-[Illuminate Database](https://github.com/illuminate/database#usage-instructions). Hoặc bạn có thể dùng sẵn hàng của người Việt mình tại đây: [https://github.com/xuanquynh/standalone-laravel-database](https://github.com/xuanquynh/standalone-laravel-database) 👍
+[Illuminate Database](https://github.com/illuminate/database#usage-instructions).
 
 Với `Rails` thì với một người không rành `Ruby` như mình quả thực đây là một bài toán khó. Tuy nhiên sau khi chày cối học một chút syntax của `Rails\Rake` thì mần vào core của Active Record > [database_tasks.rb](https://github.com/rails/rails/blob/fc2684c9c012b95ce003cce22b378d5ea9ab56d3/activerecord/lib/active_record/tasks/database_tasks.rb), [databases.rake](https://github.com/rails/rails/blob/master/activerecord/lib/active_record/railties/databases.rake). Mình đã tách đc bề nổi thành công 😆
 

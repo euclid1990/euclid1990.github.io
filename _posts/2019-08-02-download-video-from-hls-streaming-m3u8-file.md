@@ -33,7 +33,7 @@ ffmpeg -i https://path_to_m3u8_file -c copy -bsf:a aac_adtstoasc output.mp4
 
 ======================
 ## Update 09/26
-Để download video từ youtube, các bạn có thể sử dụng (youtube-dl)[https://github.com/ytdl-org/youtube-dl].
+Để download video từ youtube, các bạn có thể sử dụng [youtube-dl](https://github.com/ytdl-org/youtube-dl).
 
 Cách cài đặt khá đơn giản, chạy các câu lệnh sau trên terminal:
 

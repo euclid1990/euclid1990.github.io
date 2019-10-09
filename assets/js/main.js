@@ -14,4 +14,10 @@ $(document).ready(function() {
 
   // add lightbox class to all image links
   $("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']").attr("data-lity", "");
+
+  // fancybox photo
+  $('.e-content img').each(function () {
+    var self = $(this);
+    self.wrap("<a class='fancybox' href='" + self.attr("src") + "'></a>");
+  }).promise().done(function() { $('.fancybox').fancybox(); });;
 });

@@ -9,3 +9,5 @@ _asset_bundler_cache
 *.sublime-workspace
 codekit-config.json
 Gemfile.lock
+node_modules
+npm-debug.log*

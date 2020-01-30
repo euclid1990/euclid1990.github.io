@@ -10,7 +10,7 @@ tags:
 hide_thumbnail: true
 image: /assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/thumbnail.jpg
 ---
-
+(_Cập nhật: 30/01/2020_)
 Hôm nay là mùng 4 Tết, vậy là chỉ còn 2 ngày nữa là mọi người sẽ đều trở lại với công việc bộn bề hàng ngày, mặc dù là những ngày nghỉ nhưng thông tin về bệnh dịch viêm phổi lạ, do virus Corona được cho là xuất phát từ thành phố Vũ Hán (thành phố đông dân nhất ở miền Trung Trung Quốc) gây ra liên tục xuất hiện trên báo chí, TV, ... Ban đầu cá nhân mình cũng không để ý nhiều, nhưng khi con số người bị nhiễm và số ca tử vong tăng theo cấp số nhân thì tâm lý lo lắng bắt đầu xuất hiện. 😥
 
 Bài viết dưới đây nội dung chủ yếu mình dịch từ báo `South China Morning Post` (Còn có tên là `Bưu điện Hoa Nam Buổi sáng`, một nhật báo tiếng Anh xuất bản tại Hồng Kông). Thực ra mình thường chỉ có thói quen đọc các bài viết, blog về kỹ thuật bằng tiếng Anh chứ ít (rất ít) khi đọc các báo tiếng Anh trừ khi có vấn đề mà báo tiếng Việt không đề cập tới nhiều. Theo cá nhân mình thì đây là 2 bài viết mô tả khá trực quan về quá trình bùng phát dịch bệnh cũng nhưng cho người đọc đang lạc giữa một "ma trận thông tin" thấy dịch bệnh viêm phổi cấp ở Vũ Hán lại nghiêm trọng tới mức nào !
@@ -22,21 +22,21 @@ Bài viết dưới đây nội dung chủ yếu mình dịch từ báo `South C
 
 <hr>
 
-Dưới đây là tình hình thống kê của dịch bệnh trên toàn thế giới tính tới ngày 28/01/2020.
-![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_virus_total_cases_20200128.png){: .align-center}
+Dưới đây là tình hình thống kê của dịch bệnh trên toàn thế giới tính tới ngày 30/01/2020.
+![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_virus_total_cases_20200130.png){: .align-center}
 
 |                           | Ca nhiễm bệnh | Ca tử vong |
 |---------------------------|---------------|------------|
-| Trung Quốc                | 4,494         | 106        |
-| Hồng Kông                 | 8             | --         |
+| Trung Quốc                | 7,771         | 170        |
+| Hồng Kông                 | 10            | --         |
 | Ma Cao                    | 7             | --         |
-| Đài Loan                  | 5             | --         |
-| Phần còn lại của Châu Á   | 30            | --         |
-| Châu Âu                   | 4             | --         |
-| Bắc Mỹ                    | 6             | --         |
+| Đài Loan                  | 8             | --         |
+| Phần còn lại của Châu Á   | 71            | --         |
+| Châu Âu                   | 8             | --         |
+| Bắc Mỹ                    | 8             | --         |
 | Nam Mỹ                    | --            | --         |
 | Châu Úc                   | 5             | --         |
-| Phần còn lại của Thế Giới | --            | --         |
+| Phần còn lại của Thế Giới | 4             | --         |
 
 
 > Khi mà virus coronavirus chính thức được xác nhận có khả năng lây truyền từ người sang người và với số lượng tử vong ngày càng gia tăng và các ca nhiễm bệnh mới dần được phát hiện trên toàn thế giới, thì có lẽ mối quan tâm cấp bách nhất với Trung Quốc và Thế Giới lúc này là ngăn chặn sự bùng phát của dịch bệnh.
@@ -44,6 +44,14 @@ Dưới đây là tình hình thống kê của dịch bệnh trên toàn thế 
 Những trường hợp đầu tiên về một căn bệnh bí ẩn đã được báo cáo vào tháng 12 tại Vũ Hán, thành phố thủ phủ của tỉnh Hồ Bắc. Với dân số 11 triệu người, Vũ Hán - Dân số thành phố này còn nhiều hơn cả London hay New York. Tiếp đó, Bắc Kinh xác nhận virus đã cướp đi 26 mạng sống ở Trung Quốc vào ngày 22 tháng 1 năm 2020. Con số đó đã tăng lên 80 người tử vong chỉ sau 5 ngày khi virus này lan rộng khắp thế giới.
 
 Virus này được WHO báo động toàn cầu vì nó giống với SARS, một dịch bệnh đã lây nhiễm hơn 8.000 người trên toàn cầu và giết chết hơn 600 người ở Trung Quốc và Hồng Kông trong năm 2002-2003. (Việt Nam tự hào là quốc gia đầu tiên trên thế giới khống chế được dịch SARS thành công, nhưng nhưng đổi lại: Bệnh viện Việt Pháp phải khử trùng, đóng cửa gần nửa năm, 65 người nhiễm, 5 y bác sĩ ra đi trong cuộc chiến chống đại dịch SARS đã phải từ bỏ mạng sống vì lây nhiễm vi rút chết người này - Theo [Vnexpress](https://vnexpress.net/longform/15-nam-dai-dich-sars-noi-kinh-hoang-chua-phai-3723214.html)).
+
+### So sánh giữa các đại dịch
+
+![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_virus_how_deadly_is_coronavirus.png){: .align-center}
+
+### Số ca mắc Corona virus từ ngày 20, tháng 1, năm 2020
+
+![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_coronavirus_cases_since_january_20.png){: .align-center}
 
 ## Khu Vực Bùng Phát Dịch Bệnh
 
@@ -91,7 +99,18 @@ Vũ Hán là một trong những cảng trung gian lớn nhất dọc theo sông
 
 ![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_virus_waterways_yangtze.png){: .align-center}
 
-Thực tế là hàng nghìn người từ Vũ Hán, tâm chấn dịch viêm phổi do virus corona gây ra đã bay đến Hong Kong và các nước Thái Lan, Singapore, Nhật, ... trước khi thành phố này bị cách ly.
+## 5 triệu người Vũ Hán đã đi đâu ???
+
+Thực tế là hàng nghìn người từ Vũ Hán, tâm chấn dịch viêm phổi do virus corona gây ra đã bay đến Hong Kong và các nước Thái Lan, Singapore, Nhật, ... trước khi thành phố này bị cách ly (theo tiết lộ thị trưởng Zhou Xianwang vào ngày 26 tháng 1, 2020). Hầu hết hướng đến các thành phố khác trong tỉnh Hồ Bắc theo Baidu, có 30 điểm đến hàng đầu vào hai ngày quan trọng.
+
+![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_domestic_go.png){: .align-center}
+
+![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_domestic_go_detail.png){: .align-center}
+
+**Danh sách các địa điểm nước ngoài người Vũ Hán di chuyển tới trước khi thành phố bị cách ly:**
+
+![](/assets/img/posts/2020-01-28-wuhan-corona-virus-a-visual-explainer/wuhan_international_go_detail.png){: .align-center}
+
 
 ## So sánh phản ứng của Trung Quốc giữa đại dịch SARS 2003 với Corona 2019
 

@@ -20,8 +20,8 @@ Trong bài viêt này mình muốn giới thiệu với các bạn các kiến t
 Trên đây là 1 số kiểu SA (Solution Architect) Engineer 🐖
 - Kiểu "I" (chuyên gia theo định nghĩa cũ) thường là những người có kiến thức ở một lĩnh vực nhất định và đi rất sâu trong lĩnh vực đó.
 - Kiểu "ー" (nếu xoay ngang kiểu "I") đại diện cho một kiểu người hiểu biết trải rộng trên nhiều lĩnh vực, nhưng không có cái nào đi sâu.
-- Kiểu "T" (kết ở kiểu "I" và "ー") là những người có kiến thức tổng quát ở nhiều lĩnh vực cùng khả năng phát triển thêm các hiểu biết sâu trong một vài lĩnh vực cụ thể. Họ có thể trở thành các short-term chuyên gia khi cần.
-- Kiểu "M" (trùm cuối 🤣) không chỉ mang một khối lượng kiến thức sâu và rộng, còn là nhóm người có rất nhiều kinh nghiệm thực tế.
+- Kiểu "T" (kết hợp giữa kiểu "I" và "ー") là những người có kiến thức tổng quát ở nhiều lĩnh vực cùng khả năng phát triển thêm các hiểu biết sâu trong một vài lĩnh vực cụ thể. Họ có thể trở thành các short-term chuyên gia khi cần.
+- Kiểu "M" (trùm cuối 🤣) không chỉ mang một khối lượng kiến thức chuyên sâu và rộng, còn là nhóm người có rất nhiều kinh nghiệm thực tế. Do có nền tảng vững chắc nên rất dễ học hỏi và đi sâu vào các lĩnh vực mới, lĩnh vực cần thiết do yêu cầu của công việc.
 
 Kiến thức đầu tiên mà mình muốn đề cập, đó đơn giản chỉ là một số đơn vị đo lường:
 

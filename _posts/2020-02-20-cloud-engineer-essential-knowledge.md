@@ -51,7 +51,7 @@ Nghe 3 từ này thì có vẻ giống hệt nhau nhưng chắc chắn một đi
 
 Mặc dù `12.5MB = 8*12.5 = 100Mb`, nhưng xét về góc độ kinh doanh, nếu cùng một gói cước mạng viễn thông, nhà cung cấp quảng cáo "gói cước mạng 100 Mbps" thay vì "gói cước mạng 12.5 MBps" rõ ràng khách hàng nào không hiểu sẽ thấy con số 100 trông ấn tượng hơn rất nhiều, một thủ thuật nhỏ nhưng mang lại hiệu quả maketing vô cùng lớn, giúp thu hút được nhiều khách hàng hơn. 💯
 
-... Còn nữa
+... Còn nữa ...
 
 ## Tham khảo
 https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli

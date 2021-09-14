@@ -139,4 +139,17 @@ Với AWS RDS, Amazon phân bổ cho bạn một số IOPS tùy thuộc vào lo�
   - Page size = 16 KB, và bạn cần đọc 102,400 KB (100 MB) dữ liệu mỗi giây → Bạn cần thực hiện 102,400 / 16 = 6,400 IOPS.
   - Kích page size của bạn càng lớn, bạn cần ít IOPS hơn để đạt được cùng một mức thông lượng. Tuy nhiên điều gì sẽ xảy ra nếu Database Engine của bạn sử dụng page size >= 32 KB ? Với AWS cloud, mọi page size >= 32 KB sẽ được tính >= 1 I/O operaion. Chẳng hạn read hoặc write 1 page size 64 KB được tính là 2 I/O operations, 128 KB được tính là 4 I/O operations.
 
-Kiến thức thì còn rất nhiều, mình sẽ cố gắng tổng hợp thêm trong các bài viết sau.
+### 8. CPU Credit, Burstable và Baseline
+
+Khái niệm này chỉ dành riêng cho AWS Cloud, Instance EC2 truyền thống cung cấp 1 lượng tài nguyên CPU là cố định, trong khi Burstable performance instances cung cấp mức sử dụng CPU cơ bản (baseline) tuy nhiên cho phép được sử dụng vượt quá mức sử dụng cơ bản này. Điều này đảm bảo rằng bạn chỉ phải trả cho CPU cơ bản + bất kỳ mức sử dụng CPU vượt quá bổ sung nào, giúp tiết kiệm chi phí tối đa.
+
+![](/assets/img/posts/2021-09-13-cloud-cloud-engineer-essential-knowledge/cpu-credit.png){: .align-center}
+
+Việc sử dụng baseline hay burstable được quản lý bởi 1 chỉ số có tên là CPU credit. Và số credit này cũng không phải là một con số cố định, Mỗi phiên bản Burstable performance instances có thể kiếm được credit khi nó sử dụng dưới mức cơ bản (baseline) của CPU và tiêu hao credit khi nó sử dụng quá mức cơ bản (baseline). Số lượng credit kiếm được hoặc tiêu hao phụ thuộc vào việc sử dụng CPU của phiên bản:
+- Nếu việc sử dụng CPU dưới mức cơ bản, thì credit kiếm được > credit đã chi tiêu.
+- Nếu việc sử dụng CPU bằng với mức cơ bản, thì credit kiếm được = credit đã chi tiêu.
+- Nếu mức sử dụng CPU cao hơn mức cơ bản, thì credit đã chi tiêu sẽ > credit kiếm được.
+
+Quy luật trên được mô tả tương tự một chiếc thùng chứa nước (credit), ở vòi nước chính là mức sử dụng hay tiêu hao credit CPU. Toàn bộ lượng nước khi thùng chứa đầy có thể coi là mức CPU cơ bản (baseline).
+
+**Kiến thức thì còn rất nhiều, mình sẽ cố gắng tổng hợp thêm trong các bài viết sau.**

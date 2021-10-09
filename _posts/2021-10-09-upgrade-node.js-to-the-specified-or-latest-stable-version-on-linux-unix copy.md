@@ -2,7 +2,7 @@
 layout: post
 title:  "Nâng cấp Node.js lên phiên bản chỉ định hoặc mới nhất trên Unix/Linux"
 date:   2021-10-09 08:00:04 +0700
-categories: TIL
+categories: Tips
 hide_thumbnail: true
 image:
 ---

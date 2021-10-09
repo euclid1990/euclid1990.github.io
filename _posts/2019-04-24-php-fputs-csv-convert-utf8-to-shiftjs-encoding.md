@@ -268,10 +268,10 @@ int main()
 String after |\| is - |\|
 ```
 
-![](/assets/img/posts/2019-04-24-php-fputs-csv-convert-utf8-to-shiftjs-encoding/superise.png)
-
 Ký tự backslash `'\'` trong `UTF-8` lại xuất hiện trong string `「ソ」=「0x8F5C」=「0x8F」+「0x5C」` - `Shift-JIS`.
 Hoá ra `0x5C` trong bảng ASCII lại chính là ký tự `\`.
+
+![](/assets/img/posts/2019-04-24-php-fputs-csv-convert-utf8-to-shiftjs-encoding/superise.jpg)
 
 👉 [ASCII Table](http://lwp.interglacial.com/appf_01.htm) :capital_abcd:
 

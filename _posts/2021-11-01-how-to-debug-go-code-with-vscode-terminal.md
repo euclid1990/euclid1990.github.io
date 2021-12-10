@@ -4,7 +4,7 @@ title:  "Hướng dẫn debug code Go trên Visual Studio Code / Terminal"
 date:   2021-11-01 00:49:04 +0700
 categories: Go
 tags:
-  - Design patterns
+  - Debug
 hide_thumbnail: true
 image: /assets/img/posts/2021-11-01-how-to-debug-go-code-with-vscode-terminal/thumbnail.png
 ---

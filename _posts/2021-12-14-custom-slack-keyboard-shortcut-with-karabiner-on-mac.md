@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tuỳ biến phím tắt trên Slack và Mac với Karabiner"
-date:   2021-12-14 00:49:04 +0700
+date:   2021-12-14 07:49:04 +0700
 categories: Tips
 tags:
   - MacOS

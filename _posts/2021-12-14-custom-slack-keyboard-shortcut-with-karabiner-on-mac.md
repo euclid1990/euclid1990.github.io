@@ -63,7 +63,7 @@ Bạn tìm tới mục `"rules":`, thêm object sau vào
                 "key_code": "return_or_enter",
                 "modifiers": {
                     "mandatory": [
-                        "right_shift"
+                        "shift"
                     ]
                 }
             },

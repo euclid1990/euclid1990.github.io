@@ -208,4 +208,4 @@ https://company.domain/calendar
   以上、ご返事をお待ちしております。
   ```
 
-Do không phải là một Native Japanese nên có thể sẽ có sai sót về ngữ pháp, câu cú trong tiếng Nhật. Nếu bạn đọc được bài viết này thấy có điều gì chưa hợp lý, hãy để lại comment để mình có thể cập nhật nội dung nhé. Cảm ơn rất nhiều 💯
+Do không phải là một Native Japanese nên có thể sẽ có sai sót về ngữ pháp, câu cú trong tiếng Nhật. Và mục đích chính là truyền tải thông tin về ngày nghỉ với đội dự án nên có thể với một số bạn nội dung này hơi đơn điệu. Nếu bạn đọc thấy có điều gì chưa hợp lý, hãy để lại comment để mình có thể cập nhật nội dung tốt hơn nhé. Cảm ơn rất nhiều 💯

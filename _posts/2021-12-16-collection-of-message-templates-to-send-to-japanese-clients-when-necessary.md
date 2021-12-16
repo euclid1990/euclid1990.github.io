@@ -13,7 +13,7 @@ Trong khoảng thời gian làm việc với khác hàng là người Nhật B�
 
 Trước các kỳ nghỉ lễ của Việt Nam, mình sẽ cần phải thông báo cho khách những thông tin về ngày nghỉ lễ trước khoảng 2 tuần để hai bên cũng nhau điều chỉnh & sắp xếp lại công việc cho phù hợp, tránh gây ảnh hưởng tới tiến độ dự án. Và cứ mỗi lần như vậy, mình lại lọ mọ soạn các tin nhắn thông báo kiểu vậy, hoặc lục lại tin nhắn trong quá khứ để gửi cho khách hàng, cũng khá mất thời gian.
 
-Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho khách hàng, mình sẽ tổng hợp lại toàn bộ các mẫu thông báo xin nghỉ dạng trong bài viết này. Hy vọng sẽ giúp ích ít nhiều sau này. Cảm ơn anh [Nguyễn Thành Nam](https://www.facebook.com/ntnam1) đã bỏ thời gian review và giúp mình bổ sung các mẫu tin nhắn trong bài viết này 😎
+Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho khách hàng, mình sẽ tổng hợp lại toàn bộ các mẫu thông báo xin nghỉ trong bài viết này. Hy vọng sẽ giúp ích ít nhiều cho mình và bạn đọc sau này. Cảm ơn anh [Nguyễn Thành Nam](https://www.facebook.com/ntnam1) đã bỏ thời gian review và giúp mình bổ sung các mẫu tin nhắn trong bài viết này 😎
 
 ## 1. Xin Nghỉ Lễ
 
@@ -80,5 +80,4 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
 https://company.domain/calendar
 ```
 
-
-Nếu bạn đọc được bài viết này thấy có điều gì chưa hợp lý, hãy để lại comment để mình có thể cải thiện nội dung nhé. Cảm ơn rất nhiều 💯
+Do không phải là một Native Japanese nên có thể sẽ có sai sót về ngữ pháp, câu cú trong tiếng Nhật. Nếu bạn đọc được bài viết này thấy có điều gì chưa hợp lý, hãy để lại comment để mình có thể cập nhật nội dung nhé. Cảm ơn rất nhiều 💯

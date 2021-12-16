@@ -6,7 +6,7 @@ categories: Tips
 tags:
   - Japanese
 hide_thumbnail: true
-image: /assets/img/posts/collection-of-message-templates-to-send-to-japanese-clients-when-necessary/thumbnail.png
+image: /assets/img/posts/2021-12-16-collection-of-message-templates-to-send-to-japanese-clients-when-necessary/thumbnail.png
 ---
 
 Trong khoảng thời gian làm việc với khác hàng là người Nhật Bản, do đứng ở vị trí trung gian giữa đội phát triển và khách hàng nên mình phải sử dụng tiếng Nhật hằng ngày để truyền tải thông tin. Do có khác biệt về nền văn hoá và phong tục tập quán giữa hai bên nên ngày nghỉ phép, nghỉ lễ giữa phía Việt Nam và Nhật Bản cũng khác nhau.

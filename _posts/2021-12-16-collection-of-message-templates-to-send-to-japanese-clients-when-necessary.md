@@ -17,6 +17,8 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
 
 Các mẫu tin nhắn bên dưới có các ký tự △, 〇, ◎, ◇, □, ... Nếu sử dụng lại bạn cần thay thế lại bằng câu chữ, ngày giờ cho phù hợp.
 
+![](/assets/img/posts/2021-12-16-collection-of-message-templates-to-send-to-japanese-clients-when-necessary/announcement.jpeg){: .align-center}
+
 ## 1. Thông Báo Nghỉ Lễ
 
 ### 1.1. Tết Dương Lịch
@@ -150,6 +152,7 @@ https://company.domain/calendar
 https://company.domain/calendar
 ```
 
+![](/assets/img/posts/2021-12-16-collection-of-message-templates-to-send-to-japanese-clients-when-necessary/company_trip.jpeg){: .align-center}
 ## 2. Thông Báo Nghỉ Khác
 
 ### 2.1. Nghỉ Du Lịch Công Ty

@@ -17,7 +17,7 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
 
 ### 1.1. Tết Dương Lịch
 
-#### Thông báo trước 2 tuần
+#### Thông báo trước ngày nghỉ 2 tuần
 
 ```text
 △△株式会社　〇〇様
@@ -34,9 +34,9 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
 対応は休業明け以降になりますので、予めご了承の程宜しくお願いいたします。
 ```
 
-##### Trường hợp bổ sung
+##### *Trường hợp bổ sung*
 
-- Nghỉ kéo dài hơn do ảnh hưởng COVID-19 khiến công ty không thể sắp xếp được cho nhân viên đi du lịch
+- Nghỉ kéo dài hơn do ảnh hưởng COVID-19 khiến công ty không thể sắp xếp được cho nhân viên đi du lịch, nên cho nghỉ bù vào dịp cuối năm
 
   ```text
   ※コロナウィルスの状況により、今年7月△△日及び〇〇日で行う予定がある会社旅行ができずに、
@@ -46,7 +46,7 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
   https://company.domain/calendar
   ```
 
-#### Thông báo nhắc lại trước hôm nghỉ 1 ngày
+#### Thông báo nhắc lại trước ngày nghỉ 1 ngày
 
 ```text
 △△株式会社　〇〇様

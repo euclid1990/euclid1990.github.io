@@ -46,7 +46,7 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
   https://company.domain/calendar
   ```
 
-### Thông báo nhắc lại trước hôm nghỉ 1 ngày
+#### Thông báo nhắc lại trước hôm nghỉ 1 ngày
 
 ```text
 △△株式会社　〇〇様

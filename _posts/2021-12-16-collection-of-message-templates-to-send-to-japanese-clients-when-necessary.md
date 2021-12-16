@@ -62,11 +62,23 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
 
 ### 1.2. Tết Âm Lịch
 
-### 1.3. Giải phóng miền Nam và Quốc tế Lao động (30/4 - 01/5)
+### 1.3. Giỗ Tổ Hùng Vương
 
-### 1.4. Nghỉ Lễ 30/04
+### 1.4. Giải phóng miền Nam và Quốc tế Lao động (30/4 - 01/5)
 
 ### 1.5. Quốc Khánh (02/09)
+
+```text
+平素は格別のお引き立てを頂きまして、誠にありがとうございます。
+誠に勝手ながら、ベトナムの建国記念日休みに伴い、
+2021年9月02日（木）から2021年09月〇〇（日）まで休業とさせて頂きます。
+営業開始日は2021年9月□□日（月）となります。
+この間、弊社からのご返信やサービス提供ができなくなりますのでご了承願います。
+皆様にはご不便をお掛けいたしますが、何卒ご寛容くださいますようお願い申し上げます。
+
+※弊社の勤務カレンダーも共有させていただきます。
+https://company.domain/calendar
+```
 
 
 Nếu bạn đọc được bài viết này thấy có điều gì chưa hợp lý, hãy để lại comment để mình có thể cải thiện nội dung nhé. Cảm ơn rất nhiều 💯

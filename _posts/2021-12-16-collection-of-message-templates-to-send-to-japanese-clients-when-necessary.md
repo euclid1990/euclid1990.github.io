@@ -15,6 +15,8 @@ Trước các kỳ nghỉ lễ của Việt Nam, mình sẽ cần phải thông 
 
 Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho khách hàng, mình sẽ tổng hợp lại toàn bộ các mẫu thông báo xin nghỉ trong bài viết này. Hy vọng sẽ giúp ích ít nhiều cho mình và bạn đọc sau này. Cảm ơn anh [Nguyễn Thành Nam](https://www.facebook.com/ntnam1) đã bỏ thời gian review và giúp mình bổ sung các mẫu tin nhắn trong bài viết này 😎
 
+Các mẫu tin nhắn bên dưới có các ký tự △, 〇, ◎, ◇, □, ... Nếu sử dụng lại bạn cần thay thế lại bằng câu chữ, ngày giờ cho phù hợp.
+
 ## 1. Xin Nghỉ Lễ
 
 ### 1.1. Tết Dương Lịch
@@ -80,7 +82,7 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
   以上になりますが、ご了承の程宜しくお願いいたします。
   ```
 
-- Nâng cao (Mẫu này tôi chưa thử gửi bao giờ 😂)
+- Nâng cao (Mẫu này mình cũng chưa thử gửi bao giờ 😢)
 
   ```text
   春節 (旧正月) 休みのお知らせ
@@ -92,7 +94,7 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
   これからも変わらぬお引き立てを賜りますよう宜しくお願い申し上げます。
   敬具
   記
-  1．休業実施期間：▲▲月△△日~◎◎月〇〇日
+  1．休業実施期間：▲▲月△△日 ~ ◎◎月〇〇日
   2．休業実施日数：□□日
   ※休業中もメールはお受けしておりますが、ご返答につきましては◆◆月◇◇日以降順次対応させて頂きます。
   春節 (旧正月) 休業期間中、皆様方には大変ご迷惑をおかけいたしますが、ご理解とご協力を賜りますよう宜しくお願い致します。
@@ -147,5 +149,40 @@ https://company.domain/calendar
 ※ 弊社の勤務カレンダーも共有させていただきます。
 https://company.domain/calendar
 ```
+
+## 2. Khác
+
+### 2.1. Nghỉ Du Lịch Công Ty
+
+- Thông báo ngày nghỉ
+
+  ```text
+  いつもお世話になっております。
+  誠に勝手ながら、弊社では下記の期間を社員旅行のため、臨時休業とさせて頂きます。
+  皆様にはご不便をおかけしますが、何卒ご了承の程宜しくお願い申し上げます。
+
+  【期間：▲▲月△△日 ~ ◎◎月〇〇日】
+  ※ ▲▲月△△日より通常勤務となります。
+
+  弊社の勤務カレンダーも共有させていただきます。
+  https://company.domain/calendar
+
+  当該期間中に頂きましたご連絡につきましては、なるべく早めに回答できるように致します。
+  予めご了承の程宜しくお願いいたします。
+  ```
+
+- Rủ khách đi du lịch cùng 😂
+
+  ```text
+  毎年恒例の社内旅行が下記のとおりに決定しましたのでお知らせいたします。
+  日時：▲▲月△△日 ~ ◎◎月〇〇日
+  行き先：◆◆省、□□市
+  宿泊先： ROYAL LOTUS RESORT AND VILLAS （5★リゾート）
+  参加対象：弊社の全社員および弊社のお客様
+  参加費：無料
+  *交通費（ハノイ ~ □□往復）および□□での他の費用は弊社の負担となります。
+  お忙しいことと存じますが、是非ご参加賜わりますようご招待申し上げます。
+  以上、ご返事をお待ちしております。
+  ```
 
 Do không phải là một Native Japanese nên có thể sẽ có sai sót về ngữ pháp, câu cú trong tiếng Nhật. Nếu bạn đọc được bài viết này thấy có điều gì chưa hợp lý, hãy để lại comment để mình có thể cập nhật nội dung nhé. Cảm ơn rất nhiều 💯

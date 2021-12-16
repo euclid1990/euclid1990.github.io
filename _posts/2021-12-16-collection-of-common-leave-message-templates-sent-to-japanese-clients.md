@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Tổng hợp các mẫu tin nhắn thông dụng gửi cho khách hàng Nhật khi cần thiết"
+title:  "Tổng hợp các mẫu tin nhắn xin nghỉ thông dụng gửi cho khách hàng Nhật"
 date:   2021-12-16 07:49:04 +0700
 categories: Tips
 tags:
   - Japanese
 hide_thumbnail: true
-image: /assets/img/posts/2021-12-16-collection-of-message-templates-to-send-to-japanese-clients-when-necessary/thumbnail.png
+image: /assets/img/posts/2021-12-16-collection-of-common-leave-message-templates-sent-to-japanese-clients
+/thumbnail.png
 ---
 
 Trong khoảng thời gian làm việc với khác hàng là người Nhật Bản, do đứng ở vị trí trung gian giữa đội phát triển và khách hàng nên mình phải sử dụng tiếng Nhật hằng ngày để truyền tải thông tin. Do có khác biệt về nền văn hoá và phong tục tập quán giữa hai bên nên ngày nghỉ phép, nghỉ lễ giữa phía Việt Nam và Nhật Bản cũng khác nhau.
@@ -17,7 +18,8 @@ Nhân dịp cuối năm 2021, cần gửi lịch nghỉ Tết dương lịch cho
 
 Các mẫu tin nhắn bên dưới có các ký tự △, 〇, ◎, ◇, □, ... Nếu sử dụng lại bạn cần thay thế lại bằng câu chữ, ngày giờ cho phù hợp.
 
-![](/assets/img/posts/2021-12-16-collection-of-message-templates-to-send-to-japanese-clients-when-necessary/announcement.jpeg){: .align-center}
+![](/assets/img/posts/2021-12-16-collection-of-common-leave-message-templates-sent-to-japanese-clients
+/announcement.jpeg){: .align-center}
 
 ## 1. Thông Báo Nghỉ Lễ
 
@@ -152,7 +154,8 @@ https://company.domain/calendar
 https://company.domain/calendar
 ```
 
-![](/assets/img/posts/2021-12-16-collection-of-message-templates-to-send-to-japanese-clients-when-necessary/company_trip.jpeg){: .align-center}
+![](/assets/img/posts/2021-12-16-collection-of-common-leave-message-templates-sent-to-japanese-clients
+/company_trip.jpeg){: .align-center}
 ## 2. Thông Báo Nghỉ Khác
 
 ### 2.1. Nghỉ Du Lịch Công Ty

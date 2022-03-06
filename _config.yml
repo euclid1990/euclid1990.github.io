@@ -1,6 +1,5 @@
 # Site settings
-theme: jekyll-theme-so-simple
-# remote_theme: mmistakes/so-simple-theme
+remote_theme: "mmistakes/so-simple-theme@3.1.0"
 locale: vi-VN
 title: "Cùi Bắp"
 description: >-

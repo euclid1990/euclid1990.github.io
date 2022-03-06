@@ -35,7 +35,7 @@ Vấn đề này làm mình mất 30p debug code, đâm vào cả trong thư vi�
 
 Hoá ra trước thời điểm **13/06/1975** các vùng miền của Việt Nam sử dụng múi giờ là khác nhau, chỗ `UTC+08` chỗ `UTC+07`.
 
-Như vậy thì thư viện không hề sai :v Nhưng nếu dùng để convert fiel `TIME()` trong Database ra giờ thì sẽ cần lưu ý để phù hợp với logic.
+Như vậy thì thư viện không hề sai :v Nhưng nếu dùng để convert field `TIME()` trong Database ra giờ thì sẽ cần lưu ý để phù hợp với logic.
 
 ```javascript
 moment.tz('1975-06-13T01:00:00.000Z', 'UTC').tz('Asia/Ho_Chi_Minh').format()

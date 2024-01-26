@@ -3,5 +3,6 @@
 ### Start
 
 ```bash
-$ bundle2.5 exec jekyll serve
+$ bundle exec jekyll serve
+$ arch -x86_64 bundle exec jekyll serve
 ```

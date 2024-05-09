@@ -78,4 +78,22 @@ export interface FileListParams {
 
 ```
 
+Ngoài ra nếu bạn không muốn phải chỉnh sửa `compilerOptions` trong `tsconfig.json`. Tạo thư mục `node_modules` trong `src` của bạn, sau đó đặt typings của modules bạn muốn ghi đè vào bên trong:
+
+
+```
+├── node_modules
+│   └── ...
+│
+└── src
+    ├── index.ts
+    ├── ... your codes ...
+    │
+    └── node_modules
+        └── <module-to-be-overwritten>
+            └── index.d.ts
+```
+
+Tham khảo thêm tại [How TypeScript resolves modules section](https://www.typescriptlang.org/docs/handbook/module-resolution.html).
+
 Cảm ơn bạn đã quan tâm tới tận cuối bài viết 😆

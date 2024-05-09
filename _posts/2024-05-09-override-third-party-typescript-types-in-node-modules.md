@@ -96,4 +96,9 @@ Ngoài ra nếu bạn không muốn phải chỉnh sửa `compilerOptions` trong
 
 Tham khảo thêm tại [How TypeScript resolves modules section](https://www.typescriptlang.org/docs/handbook/module-resolution.html).
 
+- Stackoverflow
+  - [Best way to *override* third party TypeScript types in node_modules](https://stackoverflow.com/questions/67701504/best-way-to-override-third-party-typescript-types-in-node-modules)
+  - [Exclude/overwrite npm-provided typings](https://stackoverflow.com/questions/41627631/exclude-overwrite-npm-provided-typings)
+
+
 Cảm ơn bạn đã quan tâm tới tận cuối bài viết 😆

@@ -39,7 +39,6 @@ Có khá nhiều cách, trong bài viết này mình sử dụng `Remap paths tr
 // tsconfig.json
 {
   "paths": {
-    /* https://stackoverflow.com/questions/67701504/best-way-to-override-third-party-typescript-types-in-node-modules */
     "openai/resources/*": ["worker/declarations/openai/resources/*"]
   }
 }

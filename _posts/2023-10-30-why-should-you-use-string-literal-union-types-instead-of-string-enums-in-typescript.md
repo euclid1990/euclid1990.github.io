@@ -4,9 +4,7 @@ title: "Tại sao nên dùng String Union Types thay cho String Enums trong Type
 date: 2023-10-30 12:00:00 +0700
 categories: Tips
 tags:
-  - Debug
-  - Vscode
-  - Port Forwarding
+  - Typescript
 hide_thumbnail: true
 image: /assets/img/posts/2023-10-30-why-should-you-use-string-literal-union-types-instead-of-string-enums-in-typescript/thumbnail.png
 

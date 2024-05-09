@@ -2,13 +2,9 @@
 layout: post
 title: "Làm thế nào để override 3rd typescript types được khai báo bởi install package trong node modules"
 date: 2024-05-09 09:00:00 +0700
-categories: Cloud
+categories: Tips
 tags:
-  - AWS
-  - CloudFront
-  - WAF
-  - Nginx
-  - DDos
+  - Typescript
 hide_thumbnail: true
 
 ---

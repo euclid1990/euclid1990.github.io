@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bypass internet packages với SSL/TLS Tunnel và SNI/DNS giả"
-date: 2024-05-09 09:00:00 +0700
+date: 2024-05-31 09:00:00 +0700
 categories: TIL
 tags:
   - Research
